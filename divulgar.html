@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head> 
+  <title>SiteWeb2</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>  
+</head>
+<body>
+
+
+        <header class="header">
+             <a href="index.html#section1">
+            <div class="logo">
+    <img class= "logosite" src="white_dog_icon.png">
+             </a>
+            </div>
+
+
+            <nav class="nav-links">
+                <a href="#section1">Inicio</a>
+                <a href="#section2">Sobre </a>
+                <a href="#section3">Contato</a>
+            </nav>
+
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </header>
+
+
+<!-- TINHA UMA TELA DE LOGIN ANTES, MAS ACABEI TIRANTO E DEIXEI SO PARA QUANDO CLICAR NO ICONE DE LOGIN NO COMEÇO DA PAGINA HOME
+    <div id="loginOverlay">
+        <form id="loginForm" onsubmit="logar(); return false;">
+            <h3>Login</h3>
+            <input type="text" placeholder="Login" id="login">
+            <input type="password" placeholder="Senha" id="senha">
+            <input type="submit" value="Entrar">
+            <div id="errorMsg" class="error"></div>
+        </form>
+    </div> -->
+
+
+        <div class="dropdown" id="dropdownMenu">
+            <a href="index.html#section1">Inicio</a>
+            <a href="index.html#section3">Sobre</a>
+            <a href="index.html#section3">Contato</a>
+        </div>
+
+
+
+
+
+
+ <div class="textoadocaodiv">
+ <h1 class="textoadocaoh1"> Divulgue o doquinho que você encontrou:</h1>
+ </div>
+
+    <div class="form-container">
+        <form id="registerForm" enctype="multipart/form-data">
+            <h3>Formulário de Divulgação</h3>
+
+            <label for="corPelo">Cor do Pelo:</label>
+            <input type="text" id="corPelo" name="corPelo" placeholder="Digite a cor do pelo" required>
+
+            <label for="localAchado">Local Onde Achou:</label>
+            <input type="text" id="localAchado" name="localAchado" placeholder="Digite o local" required>
+
+            <label for="imagem">Imagem:</label>
+            <input type="file" id="imagem" name="imagem" accept="image/*" required>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>

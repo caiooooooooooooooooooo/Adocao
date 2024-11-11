@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head> 
+  <title>SiteWeb2</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>  
+</head>
+<body>
+
+    <header class="header">
+       <a href="index.html#section1">
+        <div class="logo">
+<img class= "logosite" src="white_dog_icon.png">
+       </a>
+        </div>
+
+
+        <nav class="nav-links">
+            <a href="#section1">Inicio</a>
+            <a href="#section2">Sobre </a>
+            <a href="#section3">Contato</a>
+        </nav>
+
+
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+
+    <div class="dropdown" id="dropdownMenu">
+        <a href="index.html#section1">Inicio</a>
+        <a href="index.html#section2">Sobre</a>
+        <a href="index.html#section3">Contato</a>
+    </div>
+    <div class="linhasuperior"></div>
+
+
+
+    <div class="textoadocaodiv">
+    <h1 class="textoadocaoh1"> Apadrinhe um doguinho:</h1>
+        <p class="primeirotexto"> Selecione o doguinho, selecione o valor e pronto! </p> <p class="segundotexto">Dessa forma você vai estar nos ajudando a manter o seu doguinho apadrinhado de barriga cheia, cheiroso, com saúde e feliz. </p>
+    </div>
+
+
+
+
+    <div class="card-container">
+
+
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+            <a href=belinha.html>
+          <img src="14.png" alt="Imagem do Card">
+          </a>
+          <div class="card-content">
+            <h2 class="card-title">Belinha</h2>
+            <p class="card-description">Niterói,RJ</p>
+          </div>
+        </div>
+
+
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+          <a href="tica.html">
+            <img src="15.png" alt="Imagem do Card"> 
+          </a>
+            <div class="card-content">
+
+              <h2 class="card-title">Tica</h2>
+              <p class="card-description">Niterói,RJ</p>
+            </div>
+          </div>
+
+
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+          <a href="angel.html">
+            <img src="16.png" alt="Imagem do Card">
+    </a>
+
+            <div class="card-content">
+              <h2 class="card-title">Angel</h2>
+              <p class="card-description">Niterói,RJ</p>
+            </div>
+          </div>
+
+
+
+      <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+        <a href="luke.html">
+            <img src="1.png" alt="Imagem do Card">
+        </a>
+            <div class="card-content">
+              <h2 class="card-title">Luke</h2>
+              <p class="card-description">Niterói,RJ</p>
+            </div>
+          </div>
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+          <a href="zeus.html">
+            <img src="2.png" alt="Imagem do Card">
+          </a>
+            <div class="card-content">
+              <h2 class="card-title">Zeus</h2>
+              <p class="card-description">São Gonçalo,RJ</p>
+            </div>
+          </div>
+
+      </a>
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+           <a href="tedy.html">
+            <img src="3.png" alt="Imagem do Card">
+             </a>
+            <div class="card-content">
+              <h2 class="card-title">Tedy</h2>
+              <p class="card-description">São Gonçalo,RJ</p>
+            </div>
+          </div>
+
+
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+            <a href="cheddar.html">
+            <img src="5.png" alt="Imagem do Card">
+     </a>
+
+            <div class="card-content">
+              <h2 class="card-title">Cheddar</h2>
+              <p class="card-description">São Gonçalo,RJ</p>
+            </div>
+          </div>
+
+
+        <div class="card" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+             <a href="bolinha.html">
+            <img src="6.png" alt="Imagem do Card">
+           </a>
+            <div class="card-content">
+              <h2 class="card-title">Bolinha</h2>
+              <p class="card-description">Niterói,RJ</p>
+            </div>
+          </div>
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+          <a href="kaki.html">
+            <img src="7.png" alt="Imagem do Card">
+     </a>
+
+            <div class="card-content">
+              <h2 class="card-title">Kaki</h2>
+              <p class="card-description">Niterói,RJ</p>
+            </div>
+          </div>
+
+
+          <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+              <a href="teco.html">
+            <img src="8.png" alt="Imagem do Card">
+            </a>
+            <div class="card-content">
+              <h2 class="card-title">Teco</h2>
+              <p class="card-description">São Gonçalo,RJ</p>
+            </div>
+          </div>
+
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+        <a href="ipanema.html">
+
+        <img src="18.png" alt="Imagem do Card">
+     </a>
+
+        <div class="card-content">
+          <h2 class="card-title">Ipanema</h2>
+          <p class="card-description">Niterói,RJ</p>
+        </div>
+      </div>
+
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+           <a href="bolt.html">
+        <img src="9.png" alt="Imagem do Card">
+        </a>
+        <div class="card-content">
+          <h2 class="card-title">Bolt</h2>
+          <p class="card-description">São Gonçalo,RJ</p>
+        </div>
+      </div>
+
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+                <a href="james.html">
+        <img src="10.png" alt="Imagem do Card">
+         </a>
+        <div class="card-content">
+          <h2 class="card-title">James</h2>
+          <p class="card-description">Niterói,RJ</p>
+        </div>
+      </div>
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+          <a href="bramante.html">
+        <img src="11.png" alt="Imagem do Card">
+         </a>
+        <div class="card-content">
+          <h2 class="card-title">Bramante</h2>
+          <p class="card-description">São Gonçalo,RJ</p>
+        </div>
+      </div>
+
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+         <a href="caju.html">
+        <img src="12.png" alt="Imagem do Card">
+         </a>
+        <div class="card-content">
+          <h2 class="card-title">Caju</h2>
+          <p class="card-description">Niterói,RJ</p>
+        </div>
+      </div>
+
+
+
+      <div class="card hidden" onmouseover="expandCard(this)" onmouseout="shrinkCard(this)">
+          <a href="mirante.html">
+        <img src="13.png" alt="Imagem do Card">
+      </a>
+
+        <div class="card-content">
+          <h2 class="card-title">Mirante</h2>
+          <p class="card-description">Niterói,RJ</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+      <div class=button-container>
+        <button class= "buttonvermais" id="verMaisBtn">Ver Mais</button>
+      <button class="buttonvermenos" id="verMenosBtn" style="display: none;">Ver Menos</button>
+      </div>
